@@ -1,3 +1,5 @@
-import {configureStore} from "@reduxjs/toolkit"
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-export const store = configureStore({})
+const userSlice = createSlice({});
+
+export const store = configureStore({});
